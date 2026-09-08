@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Pantomime Listings</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background: #4b2673;
+        color: white;
+        padding: 35px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0 0 10px 0;
+        font-size: 2.2em;
+    }
+
+    header p {
+        margin: 0;
+        font-size: 1.1em;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .pantomime {
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 25px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .pantomime h2 {
+        margin-top: 0;
+        color: #4b2673;
+        font-size: 1.6em;
+    }
+
+    .summary {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .price {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #222;
+    }
+
+    .contact {
+        background: #4b2673;
+        color: white;
+        text-decoration: none;
+        padding: 10px 18px;
+        border-radius: 6px;
+    }
+
+    .contact:hover {
+        background: #351950;
+    }
+
+    footer {
+        text-align: center;
+        color: #777;
+        padding: 30px 20px;
+        font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 1.8em;
+        }
+
+        .pantomime {
+            padding: 20px;
+        }
+
+        .details {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .contact {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<header>
+    <h1>🎭 Pantomime Listings</h1>
+    <p>Find a pantomime near you</p>
+</header>
+
+<main class="container">
+
+    <!-- PANTOMIME 1 -->
+    <article class="pantomime">
+        <h2>Cinderella</h2>
+
+        <p class="summary">
+            Join Cinderella, Buttons and the Ugly Sisters in this
+            traditional family pantomime packed with comedy, music,
+            audience participation and plenty of magic.
+        </p>
+
+        <div class="details">
+            <span class="price">£8.50</span>
+
+            <a class="contact"
+               href="mailto:bookings@example.com">
+                ✉ Contact / Book
+            </a>
+        </div>
+    </article>
+
+
+    <!-- PANTOMIME 2 -->
+    <article class="pantomime">
+        <h2>Aladdin</h2>
+
+        <p class="summary">
+            Take a magical carpet ride to Agrabah with Aladdin and
+            his friends as they battle the evil Abanazar and discover
+            the magic of the lamp.
+        </p>
+
+        <div class="details">
+            <span class="price">£10.00</span>
+
+            <a class="contact"
+               href="mailto:aladdin@example.com">
+                ✉ Contact / Book
+            </a>
+        </div>
+    </article>
+
+
+    <!-- PANTOMIME 3 -->
+    <article class="pantomime">
+        <h2>Jack and the Beanstalk</h2>
+
+        <p class="summary">
+            Fee-fi-fo-fum! Follow Jack on his giant adventure in this
+            fun-filled pantomime featuring giants, magic beans,
+            comedy and lots of audience participation.
+        </p>
+
+        <div class="details">
+            <span class="price">£7.50</span>
+
+            <a class="contact"
+               href="mailto:jack@example.com">
+                ✉ Contact / Book
+            </a>
+        </div>
+    </article>
+
+</main>
+
+<footer>
+    Pantomime Listings &copy; 2026
+</footer>
+```
+
+</body>
+</html>
